@@ -1,0 +1,411 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Input_file {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 100%;
+}
+
+.photo-location {}
+
+.show-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  /* justify-content: space-between; */
+  margin-left: 80px;
+  /* align-items: ; */
+
+}
+
+.card {
+  background: linear-gradient(121.57deg, #707070 1.62%, #393939 81.02%);
+  border-radius: 4px;
+  width: 364px;
+  height: 380px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.card__inf {
+  background: #303030;
+  border-radius: 0px 0px 4px 4px;
+  width: 364px;
+  height: 100px;
+  /* margin-top: 65px; */
+}
+
+.card__name {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* UI / White */
+
+  color: #FFFFFF;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 12px 0px;
+}
+
+.card__year {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+
+  /* UI / Light Grey */
+
+  color: #9C9C9C;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 0px;
+}
+
+.card__img {
+  width: 150px;
+  height: 150px;
+  margin-left: 107px;
+  margin-top: 65px;
+}
+
+
+.cardsPresenting {
+  margin-bottom: 32px;
+}
+
+.custom-input {
+  width: 171px;
+  height: 40px;
+  background: #F6F6F6;
+  border-radius: 4px;
+}
+
+.photo-location {
+  width: 336px;
+  height: 261px;
+  margin-left: 73px;
+  margin-top: 48px;
+  background: #9C9C9C;
+  /* opacity: 0.5; */
+  border-radius: 50px;
+}
+
+.calendar {
+  margin-top: 50px;
+}
+
+
+
+
+
+.cardId__name {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+
+  /* UI / Red */
+
+  color: #E4163A;
+
+}
+
+.cardId__show {
+  background: linear-gradient(276.45deg, #707070 0%, #393939 100.28%);
+  border-radius: 10px 10px 0px 0px;
+  /* transform: rotate(-180deg); */
+  width: 1140px;
+  height: 404px;
+  display: flex
+}
+
+/* .cardId__img {
+  height: 210px;
+  width: 210px;
+} */
+
+.cardId__inf {
+  margin-left: 146px;
+  /* margin-top:65px; */
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+
+  /* UI / White */
+
+  color: #FFFFFF;
+}
+
+.Roster {
+  height: 478px;
+  weight: 1140px;
+  margin-left: 80px;
+  margin-top: 24px;
+}
+
+.player {
+  height: 56px;
+  width: 1140px;
+  background: #FFFFFF;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9C9C9C;
+
+}
+
+.player__img {
+  weight: 55px;
+  height: 38px;
+  margin-left: 34px;
+}
+
+.changePhoto {
+  display: none;
+}
+
+.player__inf {
+  display: flex;
+  margin-top: 9px;
+  width: 1140px;
+}
+
+.player__nameteam {
+  display: block;
+}
+
+.player__nameteam__params {
+  display: block;
+}
+
+.player__number {
+  margin-left: 32px;
+}
+
+.player__nameteam {
+  margin-left: 10px;
+}
+
+.player__height {
+  margin-left: 519px;
+}
+
+.player__weight {
+  margin-left: 82px;
+}
+
+.player__age {
+  margin-left: 86px;
+}
+
+.CardsShow {
+
+  background: #F6F6F6;
+}
+
+.player__params {
+  display: flex;
+  /* margin-top: 9px; */
+  width: 1140px;
+  height: 56px;
+  background: #FFFFFF;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9C9C9C;
+}
+
+.roster {
+  margin-top: 9px;
+  width: 1140px;
+  height: 56px;
+  background: #FFFFFF;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9C9C9C;
+}
+
+.year_and_division {
+  display: flex;
+  margin-top: -40px;
+}
+
+.nameTeam {
+  /* margin-top: 65px; */
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+
+  /* UI / White */
+
+  color: #FFFFFF;
+
+}
+
+.yearTeam {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+
+  /* UI / White */
+
+  color: #FFFFFF;
+
+}
+
+.divisionTeam {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+
+  /* UI / White */
+
+  color: #FFFFFF;
+
+}
+
+.certainTeamYear {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+
+  /* UI / White */
+
+  color: #FFFFFF;
+  margin-top: 8px;
+}
+
+.certainDivisionTeam {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+
+  /* UI / White */
+
+  color: #FFFFFF;
+  margin-top: 8px;
+}
+
+.conferenceTeam {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+
+  /* UI / White */
+
+  color: #FFFFFF;
+  margin-top: 54px;
+}
+
+.certainConferenceTeam {
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* UI / White */
+
+  color: #FFFFFF;
+  /* margin-top: 8px; */
+}
+
+.divisionFlex {
+  margin-left: 84px;
+}
+
+/* .changeTeam {
+  margin-left: 812px;
+  margin-top: 21px;
+} */
+
+.deleteTeam {
+  margin-left: 24px;
+}
+
+
+.underNavPlayer {}
+
+.card_Block {
+  width: 1140px;
+  height: 594px;
+  margin-top: 32px;
+  margin-left: 80px;
+}

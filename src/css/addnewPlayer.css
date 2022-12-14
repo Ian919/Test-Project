@@ -1,0 +1,81 @@
+.calendar {
+    margin-top: 13px;
+}
+
+
+@media screen and (max-width: 576px) {
+  .logininput {
+    width: 327px;
+    height: 40px;
+  }
+
+  .inputsmall {
+    width: 151.5px;
+    height: 40px;
+  }
+
+  .InputNameAddPlayer {
+    margin-left: 24px;
+  }
+
+  .sel_position {
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+
+  .sel_position_ins {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+
+    /* UI / Grey */
+
+    color: #707070;
+  }
+
+  .sel_team_ins {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    /* or 147% */
+
+    /* UI / Grey */
+
+    color: #707070;
+  }
+
+  .stwosecondsmallinputs {
+    /* margin-top: 24px; */
+  }
+
+  .calendar_ins {
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .custom-input {
+    width: 151.5px;
+    height: 40px;
+  }
+
+  .calendar {
+    margin-top: 13px;
+  }
+
+  .inputPhoto {
+    margin-left: 95px;
+  }
+  
+
+  .buttons {
+    /* margin-top: 24px; */
+  }
+}

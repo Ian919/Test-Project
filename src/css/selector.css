@@ -1,0 +1,20 @@
+.css-g1d714-ValueContainer {
+  
+    width:300px
+}
+
+.css-1rhbuit-multiValue {
+    box-sizing: border-box;
+
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    /* UI / Lightest Grey */
+
+    border: 0.5px solid #D1D1D1;
+    border-radius: 4px;
+    background-color: #E4163A;
+}

@@ -1,0 +1,1495 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.sign {
+  width: 130px;
+  height: 50px;
+
+  /* Avenir / Book / 36 */
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+
+  /* UI / Blue */
+
+  color: #344472;
+}
+
+.login {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #707070;
+}
+
+.logininput {
+  background: #f6f6f6;
+  border-radius: 4px;
+  width: 366px;
+  height: 40px;
+  border-color: #f6f6f6;
+  border-style: none;
+}
+
+.SignIn {
+  display: flex;
+  height: 1024px;
+  width: 1440px;
+}
+
+.seePasswordEye {
+  background: #f6f6f6 url("../public/assets/img/Frame\ 6.png") no-repeat center
+    center;
+  border: 2px solid black;
+  border-radius: 4px;
+  width: 40px;
+  height: 38px;
+  display: inline-block;
+  position: relative;
+  top: 17px;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  border-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.seePassword .logininput {
+  width: 320px;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.seePasswordEye--on {
+  background: #f6f6f6 url("../public/assets/img/Frame\ 6 (1).png") no-repeat
+    center center;
+}
+
+.buttonSubmit {
+  cursor: pointer;
+  width: 365px;
+  height: 40px;
+  margin-top: 24px;
+  background: #e4163a;
+  border-radius: 4px;
+  border-color: #e4163a;
+  border-style: none;
+}
+
+.buttonSubmit:hover {
+  background: #ff5761;
+}
+
+.buttonSubmit:active {
+  background: #c60e2e;
+  border-radius: 4px;
+}
+
+.notaMember {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+  text-align: center;
+  color: #707070;
+}
+
+.link1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: pink;
+}
+
+.signUpText {
+  width: 156px;
+  height: 50px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+
+  /* UI / Blue */
+
+  color: #344472;
+}
+
+.textAgreement {
+  left: 10%;
+  right: 76.88%;
+  top: 65.23%;
+  bottom: 32.42%;
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* UI / Grey */
+
+  color: #707070;
+}
+
+.signUpAlreadyamember {
+  margin-left: 89px;
+
+  /* Avenir / Medium / 14 */
+
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* UI / Grey */
+
+  color: #707070;
+}
+
+.LingtoSignIn {
+  color: pink;
+}
+
+.imgSign {
+  width: 834px;
+  background: #f5fbff;
+  display: flex;
+}
+.imgSign1 {
+  margin: auto;
+  display: block;
+  /* margin-top: 306px; */
+}
+
+.formSign1 {
+  width: 606px;
+  display: flex;
+}
+
+.formMargin {
+  margin: auto;
+  width: 366px;
+  /* margin-top: 340px; */
+}
+
+.formsignUp {
+  display: flex;
+  width: 606px;
+  height: 1024px;
+}
+
+.signUpmargin {
+  margin: auto;
+  width: 366px;
+}
+
+.imgSignup {
+  width: 834px;
+  display: flex;
+
+  /* UI / Light Blue */
+
+  background: #f5fbff;
+  height: 1024px;
+}
+
+.imgSignup1 {
+  margin: auto;
+  display: block;
+}
+
+.signUp {
+  display: flex;
+  height: 100vh;
+}
+
+
+
+.delete {
+  background: #f6f6f6 url("../public/assets/img/delete.png") no-repeat center
+    center;
+  width: 16px;
+  height: 16px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+  margin-right: 32px;
+  cursor: pointer;
+}
+
+.create {
+  background: #f6f6f6 url("../public/assets/img/create.png") no-repeat center
+    center;
+  width: 16px;
+  height: 16px;
+  margin-top: 27px;
+  margin-bottom: 32px;
+  margin-right: 22px;
+  cursor: pointer;
+}
+
+.teamInf {
+  background: linear-gradient(276.45deg, #707070 0%, #393939 100.28%);
+  border-radius: 10px 10px 0px 0px;
+  height: 404px;
+}
+
+.teamsLink {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 32px;
+}
+
+.DenverNuggets {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+
+  /* UI / White */
+
+  color: #ffffff;
+}
+
+/* .teamsinf {
+  margin-left: 146px;
+  margin-top: 65px;
+} */
+
+.middleColumn1 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+}
+
+.middleColumn2 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+  margin-left: 84px;
+}
+
+.middleColumn3 {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+}
+
+.RosterPoster {
+  background: #ffffff;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9c9c9c;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0px 0px;
+  height: 54px;
+}
+
+.teamInf {
+  display: flex;
+}
+
+.middleColumn {
+  display: flex;
+  margin-top: 40px;
+}
+
+.navBarteam {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9c9c9c;
+  box-sizing: border-box;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.DeleteCreate {
+  display: flex;
+}
+
+.RosterText {
+  margin-top: 14px;
+  margin-left: 32px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* UI / Grey */
+
+  color: #707070;
+}
+
+.PlayerParam {
+  display: flex;
+  background: #ffffff;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9c9c9c;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+
+.PlayerInf {
+  background: #ffffff;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9c9c9c;
+  box-sizing: border-box;
+}
+
+.latties {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* UI / Grey */
+
+  color: #707070;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+
+.ADD {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+
+  width: 104px;
+  height: 40px;
+
+  /* UI / Red */
+
+  background: #e4163a;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: #c60e2e;
+}
+
+.ADD:hover {
+  background: #ff5761;
+}
+.ADD:active {
+  background: #c60e2e;
+}
+.NameACC {
+  display: flex;
+  margin-right: 51px;
+}
+.NAVBAR {
+  background: #ffffff;
+  box-shadow: 0px 1px 10px rgba(209, 209, 209, 0.5);
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.LogoBaske {
+  /* margin-left: 51px; */
+  margin-right: 1024px;
+}
+.LogoBaske-1 {
+  background-repeat: no-repeat;
+  margin-top: 16px;
+  /* margin-left: 51px; */
+}
+
+.accLogo {
+  margin-top: 25px;
+  width: 30px;
+  height: 30px;
+}
+.c {
+  text-align: center;
+  margin-right: 19px;
+  margin-top: 30px;
+  width: 71px;
+  height:24px;
+}
+
+.sidebar {
+  background: #ffffff;
+  width: 140px;
+  height: 992px;
+}
+
+.SignOutLogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 32px;
+  margin-top: 725px;
+  cursor: pointer;
+}
+
+.search1 {
+  background: url(../public/assets/img/search.png) no-repeat 326px 12px;
+  cursor: pointer;
+  height: 40px;
+  width: 346px;
+}
+
+.underNav {
+  display: flex;
+}
+
+.TeamsLogo {
+  margin-left: 58px;
+  margin-top: 32px;
+  margin-right: 58px;
+  cursor: pointer;
+}
+
+.CardsSign {
+  background: url("../public/assets/img/group_person (1).png");
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.CardsSign.active {
+  background: url("../public/assets/img/group_person.png");
+}
+
+.PlayersLogo {
+  margin-left: 58px;
+  margin-top: 71px;
+  cursor: pointer;
+  margin-right: 58px;
+}
+
+.personSign {
+  background: url("../public/assets/img/person.png");
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+.personSign.active {
+  background: url("../public/assets/img/person (1).png");
+}
+
+.InputinCards {
+  margin-left: 80px;
+  margin-top: 32px;
+}
+
+.CardsShow {
+  width: 100%;
+  height: 992px;
+
+  /* UI / Lightest Grey1 */
+
+  background: #f6f6f6;
+}
+/* 
+.AddTeam {
+  margin-top: 32px;
+  margin-left: 672px;
+} */
+
+.pages {
+  display: flex;
+  margin: 0;
+}
+
+.pages li {
+  list-style: none;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  /* identical to box height, or 171% */
+  cursor: pointer;
+
+  text-align: center;
+  margin-left: 32px;
+  height: 40px;
+  width: 40px;
+}
+
+.cardsShowing {
+  display: flex;
+  width: 100%;
+  background: #f6f6f6;
+}
+
+.previous.disabled {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.next {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.selected {
+  background: #e4163a;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.cardsPresenting {
+  /* outline: 1px solid red; */
+  margin-top: 32px;
+  height: 784px;
+  overflow-y: auto;
+}
+
+.layout-pages {
+  display: flex;
+  /* outline: 1px solid green; */
+  height: 104px;
+  align-items: center;
+  background: #f6f6f6;
+}
+
+.EmptyHere {
+  width: 556px;
+  height: 570px;
+  margin-top: 139px;
+  margin-bottom: 255px;
+}
+
+.EmptyHerePhoto {
+  width: 556px;
+  height: 570px;
+  margin-left: 493px;
+  margin-top: 11px;
+  background: #ffffff;
+}
+
+.select2 {
+  background: #ffffff;
+  /* UI / Lightest Grey */
+
+  border: 0.5px solid #d1d1d1;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 364px;
+  height: 45px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  /* UI / Grey */
+
+  color: #707070;
+}
+
+.InputinCards1 {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 32px;
+}
+
+
+
+.EmptyHeretext {
+  margin-left: 550px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* UI / Lightest Red */
+
+  color: #ff768e;
+  width: 200px;
+  height: 50px;
+}
+
+.ContinueCard {
+  margin-left: 501px;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  display: flex;
+  align-items: flex-end;
+
+  /* UI / Grey */
+
+  color: #707070;
+  width: 298px;
+  height: 32px;
+}
+
+.illustrNotFound {
+  width: 380px;
+  height: 212px;
+  margin-left: 530px;
+  margin-top: 353px;
+}
+
+.CartNotFound {
+  width: 456px;
+  height: 106px;
+  margin-top: 56px;
+  margin-left: 492px;
+}
+
+.PageNot {
+  width: 1440px;
+  height: 1072px;
+
+  /* UI / White */
+
+  background: #ffffff;
+}
+
+/* .AddPlayer {
+  background: #F6F6F6;
+  width: 100%;
+    height: 992px
+} */
+
+/* .underNavPlayer {
+  display: flex;
+} */
+
+/* .NavAddPlayer {
+  width: 1140px;
+height: 69px;
+background: #FFFFFF;
+border-radius: 10px 10px 0px 0px;
+margin-top: 32px;
+margin-left:80px;
+
+} */
+
+.ADDPlayerONE {
+  margin-left: 80px;
+  width: 1140px;
+  height: 707px;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* .textinAddplayer {
+  font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px; */
+/* or 171% */
+
+/* UI / Red */
+
+/* color: #E4163A;
+margin-top: 24px;
+margin-left: 32px;
+width: 159px;
+height: 21px;
+} */
+
+/* .InputNameAddPlayer {
+  width: 366px;
+height: 92px;
+margin-top:48px ;
+margin-left: 136px;
+} */
+
+.ADDPlayerONE {
+  display: flex;
+}
+
+/* .inputPhoto {
+  width: 336px;
+height: 261px;
+background: #9C9C9C;
+opacity: 0.5;
+border-radius: 10px;
+margin-left: 73px;
+margin-top: 48px;
+} */
+
+/* .ImgofCamera {
+  margin-left: 131px;
+  margin-top:93px;
+  margin-bottom: 93px;
+} */
+
+.selectLabel {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* UI / Grey */
+
+  color: #707070;
+}
+
+.TeamsSelect {
+  margin-left: 136px;
+}
+
+.nameofsmallInput {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* UI / Grey */
+
+  color: #707070;
+}
+
+.small1 {
+  margin-top: 24px;
+  margin-left: 136px;
+}
+
+.small2 {
+  margin-left: 24px;
+}
+
+.small3 {
+  margin-top: 24px;
+  margin-left: 136px;
+}
+
+.small4 {
+  margin-left: 24px;
+}
+
+.inputsmall {
+  width: 171px;
+  height: 40px;
+  background: #f6f6f6;
+  border-radius: 4px;
+}
+
+.ftwofirsrsmallinputs {
+  display: flex;
+}
+
+.stwosecondsmallinputs {
+  display: flex;
+}
+
+.FourInputs {
+  display: block;
+}
+
+/* .buttons {
+  display: flex;
+  margin-top: 24px;
+} */
+
+.cancel {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  background: #ffffff;
+  border-radius: 4px;
+  height: 40px;
+  width: 171px;
+  cursor: pointer;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  /* UI / White */
+
+  color: #9c9c9c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.save {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+
+  background: #e4163a;
+  border-radius: 4px;
+  height: 40px;
+  width: 171px;
+  cursor: pointer;
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+
+  /* UI / White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* .marginforsave {
+  margin-left: 34px;
+} */
+
+.marginForselectinPlayer {
+  margin-left: 24px;
+  /* margin-top: -12px; */
+  margin-top: 3px;
+  width: 364px;
+  height: 40px;
+}
+
+.burger {
+  cursor: pointer;
+  display: none;
+}
+/* .small2 {
+
+}
+
+.smal4 {
+
+} */
+@media screen and (min-width: 576px) {
+  .Menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .cardsTeam {
+    width: 375px;
+    height: 921px;
+  }
+  .AddTeam {
+    width: 351px;
+    margin-left: 12px;
+  }
+  .ADD {
+    width: 351px;
+  }
+  .cardsShowing {
+    display: block;
+  }
+  .cardsPresenting {
+    height: 566px;
+  }
+  .EmptyHere {
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .EmptyHerePhoto {
+    width: 375px;
+    height: 434px;
+    background: #ffffff;
+    margin-left: 55.53px;
+    margin-right: 55.53px;
+  }
+  .InputinCards {
+    margin-left: 16px;
+    margin-top: 12px;
+  }
+
+  .pages {
+    /* outline: 1px solid green; */
+    width: 351px;
+    height: 28px;
+    margin-left: -26.64px;
+  }
+  .CardsShow {
+    background: white;
+  }
+
+  .SideBarNone {
+    display: none;
+  }
+
+  .c {
+    display: none;
+  }
+
+  .accLogo {
+    display: none;
+  }
+
+  .burger {
+    margin-top: 25px;
+    margin-left: 12px;
+  }
+
+  .Menu {
+    width: 201px;
+    height: 815px;
+    display: none;
+    position: fixed;
+  }
+
+  .Menu.active {
+    width: 201px;
+    height: 815px;
+    display: block;
+    background: white;
+  }
+
+  .MenuName {
+    height: 80px;
+    width: 201px;
+  }
+
+  .MenuName_logo {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .sideBarForMenu {
+    margin-top: 49px;
+  }
+
+  .sidebar {
+    background: #ffffff;
+    width: 140px;
+    height: 735px;
+  }
+
+  .SignOutLogo {
+    margin-top: 598.01px;
+  }
+
+  .layout-pages {
+    background-color: #f6f6f6;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .SignIn {
+    width: 375px;
+    height: 667px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imgSign1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .imgSign {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .formSign1 {
+    margin: auto;
+    width: 327px;
+    /* margin-top: 340px; */
+  }
+}
+@media screen and (max-width: 576px) {
+  .sign {
+    width: 130px;
+    height: 49px;
+    margin-left: 123px;
+    margin-top: 159px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .logininput {
+    width: 327px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .inpute_type {
+    width: 327px;
+    height: 40px;
+  }
+}
+
+/* app */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Input_file {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: 100%;
+}
+
+.photo-location {
+}
+
+.show-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  /* justify-content: space-between; */
+  margin-left: 80px;
+  /* align-items: ; */
+}
+
+.card {
+  background: linear-gradient(121.57deg, #707070 1.62%, #393939 81.02%);
+  border-radius: 4px;
+  width: 364px;
+  height: 380px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.card__inf {
+  background: #303030;
+  border-radius: 0px 0px 4px 4px;
+  width: 364px;
+  height: 100px;
+  /* margin-top: 65px; */
+}
+
+.card__name {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* UI / White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+  margin: 12px 0px;
+}
+
+.card__year {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  text-align: center;
+
+  /* UI / Light Grey */
+
+  color: #9c9c9c;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 12px 0px;
+}
+
+.card__img {
+  width: 150px;
+  height: 150px;
+  margin-left: 107px;
+  margin-top: 65px;
+}
+
+.cardsPresenting {
+  margin-bottom: 32px;
+}
+
+.custom-input {
+  width: 171px;
+  height: 40px;
+  background: #f6f6f6;
+  border-radius: 4px;
+}
+
+.photo-location {
+  width: 336px;
+  height: 261px;
+  margin-left: 73px;
+  margin-top: 48px;
+  background: #9c9c9c;
+  /* opacity: 0.5; */
+  border-radius: 50px;
+}
+
+.calendar {
+  margin-top: 50px;
+}
+
+.cardId__show {
+  width: 1140px;
+  height: 404px;
+  left: 220px;
+  top: 112px;
+  /* margin-left: 80px; */
+  /* margin-top: 32px; */
+  background: linear-gradient(276.45deg, #707070 0%, #393939 100.28%);
+  border-radius: 10px 10px 0px 0px;
+}
+
+
+
+.cardId__name {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* UI / Red */
+
+  color: #e4163a;
+}
+
+.cardId__show {
+  background: linear-gradient(276.45deg, #707070 0%, #393939 100.28%);
+  border-radius: 10px 10px 0px 0px;
+  /* transform: rotate(-180deg); */
+  width: 1140px;
+  height: 404px;
+  display: flex;
+}
+
+/* .cardId__img {
+  height: 210px;
+  weight: 210px;
+} */
+
+.cardId__inf {
+  margin-left: 146px;
+  /* margin-top:65px; */
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+
+  /* UI / White */
+
+  color: #ffffff;
+}
+
+.Roster {
+  height: 478px;
+  weight: 1140px;
+  margin-left: 80px;
+  margin-top: 24px;
+}
+
+.player {
+  height: 56px;
+  width: 1140px;
+  background: #ffffff;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9c9c9c;
+}
+
+.player__img {
+  weight: 55px;
+  height: 38px;
+  margin-left: 34px;
+}
+
+.changePhoto {
+  display: none;
+}
+
+.player__inf {
+  display: flex;
+  margin-top: 9px;
+  width: 1140px;
+}
+
+.player__nameteam {
+  display: block;
+}
+
+.player__nameteam__params {
+  display: block;
+}
+.player__number {
+  margin-left: 32px;
+}
+
+.player__nameteam {
+  margin-left: 10px;
+}
+
+.player__height {
+  margin-left: 519px;
+}
+
+.player__weight {
+  margin-left: 82px;
+}
+
+.player__age {
+  margin-left: 86px;
+}
+
+.CardsShow {
+  background: #f6f6f6;
+}
+
+.player__params {
+  display: flex;
+  /* margin-top: 9px; */
+  width: 1140px;
+  height: 56px;
+  background: #ffffff;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9c9c9c;
+}
+
+.roster {
+  margin-top: 9px;
+  width: 1140px;
+  height: 56px;
+  background: #ffffff;
+  /* UI / Light Grey */
+
+  border: 0.5px solid #9c9c9c;
+}
+
+.year_and_division {
+  display: flex;
+  margin-top: -40px;
+}
+
+.nameTeam {
+  /* margin-top: 65px; */
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 49px;
+
+  /* UI / White */
+
+  color: #ffffff;
+}
+
+.yearTeam {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+}
+
+.divisionTeam {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+}
+
+.certainTeamYear {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.certainDivisionTeam {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+  margin-top: 8px;
+}
+
+.conferenceTeam {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  /* UI / White */
+
+  color: #ffffff;
+  margin-top: 54px;
+}
+
+.certainConferenceTeam {
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+
+  /* UI / White */
+
+  color: #ffffff;
+  /* margin-top: 8px; */
+}
+
+.divisionFlex {
+  margin-left: 84px;
+}
+
+.changeTeam {
+  margin-left: 812px;
+}
+
+/* .deleteTeam {
+  margin-left: 24px;
+  margin-right: 39px;
+  margin-top: 27px;
+} */
+/* 
+.underNavPlayer {
+} */
+
+.cardBlock {
+  width: 1140px;
+  height: 594px;
+  margin-top: 32px;
+  margin-left: 80px;
+}

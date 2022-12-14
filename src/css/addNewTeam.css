@@ -1,0 +1,161 @@
+.underNavPlayer {
+  display: flex;
+}
+
+.AddPlayer {
+  background: #f6f6f6;
+  width: 100%;
+  height: 992px;
+}
+
+.NavAddPlayer {
+  width: 1140px;
+  height: 69px;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 32px;
+  margin-left: 80px;
+}
+
+.textinAddplayer {
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  /* UI / Red */
+
+  color: #e4163a;
+  margin-top: 24px;
+  margin-left: 32px;
+  width: 159px;
+  height: 21px;
+}
+
+.ADDPlayerONE {
+  margin-left: 80px;
+  width: 1140px;
+  height: 711px;
+  background: #ffffff;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.inputPhoto {
+  width: 336px;
+  height: 261px;
+  background: #9c9c9c;
+  opacity: 0.5;
+  border-radius: 10px;
+  margin-left: 95px;
+  margin-top: 48px;
+}
+
+.InputNameAddPlayer {
+  width: 366px;
+  height: 92px;
+  margin-top: 48px;
+  margin-left: 136px;
+}
+
+.buttons {
+  display: flex;
+  margin-top: 24px;
+}
+
+.marginforsave {
+  margin-left: 34px;
+}
+
+.ImgofCamera {
+  margin-left: 131px;
+  margin-top: 93px;
+  margin-bottom: 93px;
+}
+
+@media screen and (max-width: 576px) {
+  .inputPhoto {
+    width: 185px;
+    height: 144px;
+  }
+
+  .ImgofCamera {
+    width: 41px;
+    height: 40px;
+    margin-left: 72px;
+    margin-top: 52px;
+  }
+  .cardsTeam {
+    width: 375px;
+    height: 736px;
+  }
+  .ADDPlayerONE {
+    display: block;
+    width: 375px;
+    height: 688px;
+    margin-left: 0px;
+  }
+  .NAVBAR {
+    width: 375px;
+    height: 62px;
+  }
+
+  .sidebar {
+    /* display: none; */
+  }
+  .logininput {
+    width: 327px;
+    height: 40px;
+  }
+
+  .AddPlayer {
+    height: 688px;
+    width: 375px;
+    background-color: white;
+  }
+
+  .InputNameAddPlayer {
+    margin-left: 24px;
+  }
+
+  .save {
+    width: 152px;
+    height: 40px;
+    margin-left: -7px;
+  }
+
+  .cancel {
+    width: 152px;
+    height: 40px;
+  }
+
+  .textinAddplayer {
+    margin-left: -64px;
+  }
+
+  .LogoBaske-1 {
+    width: 137px;
+    height:34px;
+    margin-left: auto;
+  }
+
+  .LogoBaske {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .photo-location {
+    width: 185px;
+    height: 144px
+  }
+
+  .burger {
+    margin-left: 15px;
+    display: block;
+  }
+
+  .SELECT {
+    width: 327px;
+  }
+}

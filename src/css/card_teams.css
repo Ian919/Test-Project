@@ -1,0 +1,118 @@
+.card__name {
+  margin-left: 119px;
+  margin-top: 24px;
+}
+
+
+.AddTeam {
+  margin-top: 32px;
+  margin-left: 917px;
+}
+
+/* 
+.ADD {
+  display: none;
+} */
+
+.small_selector {
+  width: 88px;
+  height: 40px;
+  background: #FFFFFF;
+  /* UI / Lightest Grey */
+
+  border: 0.5px solid #D1D1D1;
+  border-radius: 4px;
+  margin-left:1000px;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 169.5px;
+    height: 201px;
+    margin-left: 12px;
+    margin-right: 0px;
+    margin-top: 12px;
+  }
+
+  .card__img {
+    width: 58.4px;
+    height: 50.68px;
+    margin-left: 56.34px;
+    margin-right: 31.59px;
+  }
+
+  .card__inf {
+    width: 169.5px;
+    height: 94px;
+  }
+
+  .card__name {
+    width: 148px;
+    height: 24px;
+
+    /* Avenir / Medium / 15 */
+
+    font-family: "Avenir";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 17px;
+    margin-top: 22px;
+  }
+
+  .card__year {
+    margin-left: 11px;
+    margin-top: 22px;
+  }
+
+  .show-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 348px;
+  }
+
+  .search1 {
+    width: 351px;
+  }
+
+  /* .cardsPresenting {
+    height: 348px;
+  }
+   */
+  .cardsTeam {
+    width: 375px;
+    height: 921px;
+  }
+
+  .selectCount {
+    display: none;
+  }
+
+  .layout-pages {
+    margin-bottom: 16px;
+  }
+
+  .cardsPresenting {
+    height: 661px;
+    width: 375px;
+    margin-top: 4px;
+  }
+}

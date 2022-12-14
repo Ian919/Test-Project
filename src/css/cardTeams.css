@@ -1,0 +1,275 @@
+.deleteTeam {
+    /* margin-right: 24px; */
+    width: 12px;
+    height: 14px;
+    margin-right: 39px;
+    margin-top: 21px;
+
+}
+
+.cardId__nav {
+    width: 1140px;
+    height: 69px;
+}
+
+.card__img_team {
+    margin-left: 146px;
+    margin-top: 97px;
+    width: 210px;
+    height: 210px;
+    /* border-radius: 100px; 
+    border: 3px solid green; 
+    box-shadow: 0 0 7px #666;  */
+}
+
+
+
+.rostenName {
+    margin-top: 14px;
+    margin-left: 32px;
+}
+
+.player__nameteam__params {
+    margin-left: 32px;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* UI / Grey */
+
+    color: #707070;
+    height: 20px;
+    width: 39px;
+
+}
+
+.player__img {
+    margin-left: 34px;
+}
+
+
+
+.player__Weight {
+    margin-right: 86px;
+}
+
+/* .player__Age {
+    margin-left: 86px;
+} */
+
+.player__age {
+    margin-left: 67px;
+}
+
+.player__Height {
+    margin-right: 86px;
+    margin-left: 519px;
+}
+
+.player__weight {
+    margin-left: 86px;
+}
+
+
+.player__number {
+    margin-left: 32px;
+    width: 16px;
+    height: 19px;
+
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+    /* UI / Grey */
+
+    color: #707070;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.player__height {
+    margin-left: 696px;
+}
+
+.player__nameteam {
+    width: 160px;
+    height: 42px;
+}
+
+
+.cardBlock {
+    display: flex;
+    width: 203px;
+    height: 21px;
+    margin-top: 24px;
+}
+
+.teams__link {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* UI / Red */
+
+    color: #E4163A;
+    margin-top: 0px;
+}
+
+.cardId__name {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+
+    /* UI / Red */
+
+    color: #E4163A;
+    margin-top: 0px;
+}
+
+.cardId {
+    margin-left: 80px;
+}
+
+.Roster {
+    margin-left: 80px;
+}
+
+.cardId__nav {
+    background: #ffffff;
+    /* margin-left: 80px; */
+    margin-top: 32px;
+    /* UI / Light Grey */
+
+    border: 0.5px solid #9c9c9c;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    width: 1140px;
+}
+
+.cardId__show {
+    width: 1140px;
+    height: 404px;
+    left: 220px;
+    top: 112px;
+    /* margin-left: 80px; */
+    /* margin-top: 32px; */
+    background: linear-gradient(276.45deg, #707070 0%, #393939 100.28%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.logotip {
+    width: 531px;
+    height: 531px;
+     margin-left: 100px; 
+    /* margin-top: 56px;
+    margin-right: 66px; */ 
+    /* margin-bottom: 0px; */
+}
+
+.logotip_info {
+    margin-top: 66px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.DenverNuggets {
+    /* margin-left: 56px;
+    margin-top: 65px; */
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+
+    /* UI / White */
+
+    color: #FFFFFF;
+}
+
+.teamInf {
+    width: 1140px;
+    height: 525px;
+}
+
+.teamsinf {
+    width: 570px;
+    height: 525px;
+}
+
+.middleColumn3 {
+    display: flex;
+}
+
+.font_character {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    /* UI / White */
+
+    color: #FFFFFF;
+}
+
+.font_define {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    /* UI / White */
+
+    color: #FFFFFF;
+}
+
+.font_number {
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    margin-left: 7px;
+    /* margin-top: 65px; */
+    color: pink;
+    /* margin-top: 65px; */
+}
+
+.name_number {
+    display: flex;
+    width: 376px;
+    height: 49px;
+    margin-bottom: 40px;
+}
+
+.changeTeam {
+    margin-left: 812px;
+    margin-top: 21px;
+  }
